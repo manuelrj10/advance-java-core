@@ -10,6 +10,8 @@ public class regexeg2 {
 		String pattern=".*nu.*";
 		String content="manuel";
 		boolean flagout=Pattern.matches(pattern,content);
+		System.out.println("pattern true"+Pattern.matches("\\D","hid"));
+		System.out.println("pattern true"+Pattern.matches("\\D*","hid"));
 		
 		System.out.println("do the text contains park??"+flagout);
 				
