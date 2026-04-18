@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+
+
+<aliens>
+	<alien aid="1">
+		<name>manuel</name>
+		<salary>3000</salary>
+	</alien>
+	<alien aid="2">
+		<name>tyler</name>
+		<salary>40000</salary>
+	</alien>
+</aliens>
