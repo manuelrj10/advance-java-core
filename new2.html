@@ -1,0 +1,90 @@
+<html>
+<head>
+
+
+
+<title>Registration</title>
+</head>
+
+
+
+
+
+<body>
+<h1>Student Registration Form</h1><br>
+
+
+
+<form name =“register” method=“post” action =“success.html”>
+<label>roll no:</label>&nbsp;&nbsp;
+<input type="text" name="roll"/><br><br>
+<label>Student name:</label>&nbsp;&nbsp;
+<input type="text" name="first" placeholder="first name"/>&nbsp;-&nbsp;
+<input type="text" name="last" placeholder="last name"/><br><br>
+<label>Fathers name:</label>&nbsp;&nbsp;
+<input type="text" name="father_name"/><br><br>
+
+<label>Date of Birth:</label>&nbsp;&nbsp;
+<input type="text" name="Day" placeholder="Day"/>&nbsp;-&nbsp;
+<input type="text" name="Month" placeholder="Month"/>&nbsp;-&nbsp;
+<input type="text" name="Year" placeholder="Year"/>&nbsp;
+<label>(DD-MM-YYYY)</label><br><br>
+<label>Mobile no::</label>&nbsp;&nbsp;
+<input type="text" name="firstPhn" placeholder="+91"/>&nbsp;&nbsp;
+<input type="text" name="email"/ pattern="[0-9]{10}"><br><br>
+<label>Email Id:</label>&nbsp;&nbsp;
+<input type="text" name="roll"/><br><br> 
+<label>Password:</label>&nbsp;&nbsp;
+<input type="Password" name="password"/><br><br>
+Gender&nbsp;&nbsp;<input type="radio" name="gender" value="male"/>male
+<input type="radio" name="gender" value="female"/>female<br><br>
+Department&nbsp;&nbsp;<input type="checkbox" name ="dept"value="cs"/>cs
+<input type="checkbox" name ="dept"value="IT"/>IT
+<input type="checkbox" name ="dept"value="EC"/>EC
+<input type="checkbox" name ="dept"value="Mech"/>Mech
+<input type="checkbox" name ="dept"value="EEE"/>EEE<br><br>
+
+Course<select name="course">
+<option value="">--------select current courses---------</option><br><br>
+<option value="java">Java</option><br><br>
+<option value="Python">Python</option><br><br>
+<option value="JavaScript">JavaScript</option>
+
+</select><br><br>
+
+student photo: <input type="file" name="photo"/><br><br>
+Course<select name="city">
+<option value="0">--------select city---------</option><br><br>
+<option value="1">kochi</option><br><br>
+<option value="2">idukki</option><br><br>
+<option value="3">kottayam</option><br><br>
+<option value="4">kannur</option>
+</select>
+<br><br>
+
+Address<textarea name="address" rows="6" cols="65"></textarea><br><br>
+<input type="submit" value="register"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+
+
+</body>
+
+
+</html>
