@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<!DOCTYPE notes [
+<!ELEMENT notes  (to,from,heading,body)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
